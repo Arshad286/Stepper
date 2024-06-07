@@ -1,0 +1,72 @@
+.step-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.permissions-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.permissions-section button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.permissions-section button img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+
+}
+
+.permissions-section button p {
+    margin: 0;
+    flex: 1;
+}
+
+.permissions-section button .button-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.permissions-section button strong {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.permissions-section button p {
+    font-size: 12px;
+    color: #666;
+}
+
+.permissions-section button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.permissions-section button.active img {
+    filter: brightness(0) invert(1);
+}
+
+.permissions-section button.active p {
+    color: #e0e0e0;
+}

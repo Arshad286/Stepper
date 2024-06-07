@@ -1,0 +1,40 @@
+.step-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step-container h2 {
+    margin-bottom: 20px;
+}
+
+.view-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.view-section button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-section button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.view-section img {
+    margin-bottom: 8px;
+}
+
